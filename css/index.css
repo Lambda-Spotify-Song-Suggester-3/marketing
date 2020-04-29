@@ -165,6 +165,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+a {
+  text-decoration: none;
+}
 header {
   display: flex;
   flex-direction: column;
@@ -187,10 +190,38 @@ header nav a {
 }
 header #title {
   font-size: 12rem;
+  letter-spacing: 7px;
   color: aquamarine;
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 8px, #FFF 0px 0px 13px, #99299B 0px 0px 15px, #99299B 0px 0px 20px, #99299B 0px 0px 30px, #99299B 0px 0px 40px, #99299B 0px 0px 50px;
 }
 nav a {
   color: aquamarine;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.4rem;
+  background-color: rgba(0, 15, 15, 0.7);
+  width: 100%;
+  margin-top: 5%;
+}
+footer nav a {
+  color: #709689;
+  margin: 1.5%;
+  padding: 1% 0;
+}
+footer #signup {
+  font-size: 5rem;
+  color: aqua;
+  font-family: 'Bangers', cursive;
 }
 .maincontent {
   display: flex;
@@ -235,5 +266,27 @@ nav a {
 }
 .maincontent .features div p {
   color: #709689;
-  background-color: rgba(0, 15, 15, 0.7);
+  background-color: rgba(0, 15, 15, 0.8);
+}
+.teammates {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  text-align: center;
+}
+.teammates div {
+  width: 30%;
+  padding: 5%;
+}
+.teammates div h3 {
+  font-size: 3rem;
+  color: aquamarine;
+  padding: 5px;
+}
+.teammates div p {
+  color: #709689;
+  background-color: rgba(0, 15, 15, 0.8);
 }
