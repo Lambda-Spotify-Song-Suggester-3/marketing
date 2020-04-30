@@ -7,7 +7,9 @@
         width: 80%;
         margin: 2%;
         padding-top: 22%;
-        
+        @media @mobile {
+            padding-top: 5%;          
+        }
 
         h2 {
             color: @aqua;
@@ -40,7 +42,11 @@
                 color: @babyseal;
                 background-color: @fadedblack2;
             }
+
+            @media @mobile {
+                width: 40%
+            }
         }
-        
+
     }
 }
