@@ -1,0 +1,63 @@
+.maincontent {
+   
+    .flexin(column, center, center);
+   
+    width: 100%;
+
+    .about {
+        text-align: center;
+       
+        width: 80%;
+       
+        margin: 2%;
+       
+        padding-top: 22%;
+       
+        @media @mobile {
+            padding-top: 5%;          
+        }
+
+        h2 {
+            color: @aqua;
+            font-size: 4.5rem;
+        }
+
+        p{
+            text-align: center; 
+            color: @babyseal;
+            background-color: @fadedblack;
+            font-size: 2rem;
+        }
+
+    }
+    .features{
+        .flexin(row, center, center);
+       
+        flex-wrap: wrap;
+       
+        padding-top: 5%;
+       
+        text-align: center;
+
+        div {
+            width: 30%;
+           
+            padding: 5%;
+            
+            h3 {
+                font-size: 3rem;
+                color: @aqua;
+                padding: 5px;
+            }
+           
+            p {
+                color: @babyseal;
+                background-color: @fadedblack2;
+            }
+
+            @media @mobile {
+                width: 40%
+            }
+        }
+    }
+}

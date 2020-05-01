@@ -1,0 +1,328 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+@media (max-width:515px) {
+  body {
+    background-position: center;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+#signup:hover {
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 8px, #FFF 0px 0px 13px, #99299B 0px 0px 15px, #99299B 0px 0px 20px, #99299B 0px 0px 30px, #99299B 0px 0px 40px, #99299B 0px 0px 50px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.4rem;
+  background-color: rgba(0, 15, 15, 0.7);
+  width: 100%;
+}
+header nav a {
+  color: #709689;
+  margin: 1.5%;
+  padding: 1% 0;
+}
+header #title {
+  font-size: 12rem;
+  letter-spacing: 5px;
+  color: aquamarine;
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 8px, #FFF 0px 0px 13px, #99299B 0px 0px 15px, #99299B 0px 0px 20px, #99299B 0px 0px 30px, #99299B 0px 0px 40px, #99299B 0px 0px 50px;
+}
+@media (max-width:515px) {
+  header #title {
+    font-size: 7rem;
+    padding-top: 5%;
+  }
+}
+nav a {
+  color: aquamarine;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.4rem;
+  background-color: rgba(0, 15, 15, 0.7);
+  width: 100%;
+  margin-top: 5%;
+}
+footer nav a {
+  color: #709689;
+  margin: 1.5%;
+  padding: 1% 0;
+}
+footer #signup {
+  font-size: 7rem;
+  color: aqua;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 5px;
+}
+.maincontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.maincontent .about {
+  text-align: center;
+  width: 80%;
+  margin: 2%;
+  padding-top: 22%;
+}
+@media (max-width:515px) {
+  .maincontent .about {
+    padding-top: 5%;
+  }
+}
+.maincontent .about h2 {
+  color: aquamarine;
+  font-size: 4.5rem;
+}
+.maincontent .about p {
+  text-align: center;
+  color: #709689;
+  background-color: rgba(0, 15, 15, 0.7);
+  font-size: 2rem;
+}
+.maincontent .features {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  text-align: center;
+}
+.maincontent .features div {
+  width: 30%;
+  padding: 5%;
+}
+.maincontent .features div h3 {
+  font-size: 3rem;
+  color: aquamarine;
+  padding: 5px;
+}
+.maincontent .features div p {
+  color: #709689;
+  background-color: rgba(0, 15, 15, 0.8);
+}
+@media (max-width:515px) {
+  .maincontent .features div {
+    width: 40%;
+  }
+}
+.teammates {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  text-align: center;
+}
+.teammates div {
+  width: 25%;
+  margin: 1%;
+  background-color: rgba(0, 15, 15, 0.8);
+  box-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 8px, #FFF 0px 0px 13px, #99299B 0px 0px 15px, #99299B 0px 0px 20px, #99299B 0px 0px 30px, #99299B 0px 0px 40px, #99299B 0px 0px 50px;
+}
+.teammates div h3 {
+  font-size: 3rem;
+  color: aquamarine;
+  padding: 5px;
+}
+.teammates div p {
+  color: #709689;
+  background-color: rgba(0, 15, 15, 0.8);
+}
+@media (max-width:515px) {
+  .teammates div {
+    width: 40%;
+    margin: 5%;
+  }
+}
+#signup {
+  margin-top: 4%;
+}
